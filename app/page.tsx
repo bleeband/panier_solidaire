@@ -8,7 +8,14 @@ export default function Home() {
 
       <header className="attente-entete">
         <a className="attente-marque" href="#contenu" aria-label="Le Panier solidaire — accueil">
-          <span className="attente-monogramme" aria-hidden="true">PS</span>
+          <Image
+            className="attente-marque-logo"
+            src="/panier-solidaire-logo.png"
+            alt=""
+            width={512}
+            height={512}
+            priority
+          />
           <span>Le Panier solidaire</span>
         </a>
         <span className="attente-statut">

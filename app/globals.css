@@ -85,14 +85,10 @@ label.quart {
   text-decoration: none;
 }
 
-.marque span {
-  display: grid;
-  width: 36px;
-  height: 36px;
-  place-items: center;
-  border-radius: 10px 10px 18px;
-  background: var(--vert);
-  color: white;
+.marque-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .contenu {
@@ -701,17 +697,10 @@ button:disabled {
   text-decoration: none;
 }
 
-.attente-monogramme {
-  display: grid;
+.attente-marque-logo {
   width: 2.75rem;
   height: 2.75rem;
-  place-items: center;
-  border: 1px solid rgba(217, 239, 139, 0.5);
-  border-radius: 50%;
-  background: rgba(217, 239, 139, 0.08);
-  color: var(--attente-lime);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  object-fit: contain;
 }
 
 .attente-statut {

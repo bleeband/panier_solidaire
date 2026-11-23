@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 
 type Presence = {
@@ -147,7 +148,14 @@ export default function RapportsPage() {
     <main>
       <header className="entete">
         <Link className="marque" href="/" aria-label="Panier Solidaire — accueil">
-          <span aria-hidden="true">P</span>
+          <Image
+            className="marque-logo"
+            src="/panier-solidaire-logo.png"
+            alt=""
+            width={512}
+            height={512}
+            priority
+          />
           Panier Solidaire
         </Link>
         <nav className="nav-principale" aria-label="Navigation principale">
