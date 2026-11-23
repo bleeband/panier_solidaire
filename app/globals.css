@@ -625,7 +625,7 @@ button:disabled {
 
 /* Page d'attente */
 .attente {
-  --attente-fond: #071d18;
+  --attente-fond: #1f5d47;
   --attente-encre: #f8f4ea;
   --attente-vert: #72d3a7;
   --attente-lime: #d9ef8b;
@@ -647,7 +647,7 @@ button:disabled {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(115deg, rgba(7, 29, 24, 0.2), rgba(7, 29, 24, 0.92) 72%);
+  background: linear-gradient(115deg, rgba(7, 29, 24, 0.04), rgba(7, 29, 24, 0.38) 72%);
   content: "";
 }
 
@@ -698,8 +698,13 @@ button:disabled {
 }
 
 .attente-marque-logo {
+  box-sizing: border-box;
   width: 2.75rem;
   height: 2.75rem;
+  padding: 0.18rem;
+  border-radius: 50%;
+  background: var(--attente-encre);
+  box-shadow: 0 0.35rem 1rem rgba(7, 29, 24, 0.18);
   object-fit: contain;
 }
 
