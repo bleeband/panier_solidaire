@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Panier Solidaire | Espace bénévole",
-  description: "Inscription aux quarts de bénévolat du Panier solidaire.",
+  title: "Le Panier solidaire | Bientôt disponible",
+  description:
+    "La nouvelle plateforme du Panier solidaire est présentement en préparation.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
